@@ -90,7 +90,7 @@
 		text-decoration: none;
 
 		&:before {
-			@include vendor('animation', ('spinner-show 1s 1 0.25s ease forwards', 'spinner-hide 0.25s ease-in-out forwards !important'));
+			@include vendor('animation', ('spinner-show 1.5s 1 0.25s ease forwards', 'spinner-hide 0.25s ease-in-out forwards !important'));
 			@include vendor('transform-origin', '50% 50%');
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -131,7 +131,7 @@
 
 		&.is-loading {
 			&:before {
-				@include vendor('animation', ('spinner-show 1s 1 0.25s ease forwards', 'spinner-rotate 0.75s infinite linear !important'));
+				@include vendor('animation', ('spinner-show 1.5s 1 0.25s ease forwards', 'spinner-rotate 0.75s infinite linear !important'));
 				z-index: 100001;
 			}
 
