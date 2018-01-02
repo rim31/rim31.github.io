@@ -2253,7 +2253,7 @@
 
 /* ========= enlever la video de backgroung ========= */
 		@media screen and (max-device-width: 800px) {
-			html { background: url("../../images/fulls/pic06.jpg") #000 no-repeat center center fixed; }
+			#intro {background: url("images/overlay.png"), url("../../images/fulls/pic06.jpg") no-repeat center center fixed;}
 			#bgvid { display: none; }
 			}
 
