@@ -37,10 +37,11 @@
 			</header>
 
 		<!-- One -->
-			<section id="places" class="main style2 left dark fullscreen">
+			<section id="places" class="main style2 left dark fullscreen" >
 				<!-- <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" class="videoFooter" autoplay muted loop>
 					<source src="images/videos/wallpaperMe.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
 				</video> -->
+
 				<div class="content box style2">
 					<header>
 						<h2>Roller Dance à Paris</h2>
@@ -62,26 +63,31 @@
 						<p>Voici quelques endroits intéressants pour s'entrainer, et parfois retrouver des gens sympas !</p>
 						</header>
 
+						<div class="flexbox">
+						  <div class="col-md-8" style="background-color:red;width:50%">.col-md-8</div>
+						  <div class="col-md-4" style="background-color:yellow;width:50%">.col-md-4</div>
+							<div class="col-md-4" style="background-color:yellow;width:50%">.col-md-4</div>
+						  <div class="col-md-8" style="background-color:red;width:50%">.col-md-8</div>
+						</div>
 						<!-- Gallery  -->
 						<div class="gallery">
 							<article class="from-left showhim maps">
 								<a href="images/fulls/pic01.jpg" class="image fit"><img class="myPreview2 showme" src="images/thumbs/pic01.jpg" title="The sparkling shell" alt="" /></a>
-								<video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" class="previewVideo" width="440" height="299" autoplay loop muted>
+								<video  class="previewVideo image fit" preload='auto' controls loop muted preload="none">
 									<source src="images/videos/wallpaperMe.mp4" type="video/mp4">Your browser does not support the video tag.
 								</video>
 							</article>
 							<article class="from-right showhim maps">
 								<a href="images/fulls/pic06.jpg" class="image fit"><img class="myPreview2 showme" src="images/thumbs/pic06.jpg" title="Bent IX" alt="" /></a>
-								<img class="previewVideo" src="images/thumbs/pic01.jpg" title="Bent IX" alt="" />
-								<!-- <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" class="previewVideo" width="440" height="299" autoplay loop muted>
-									<source src="images/videos/wallpaperMe.mp4" type="video/mp4">Your browser does not support the video tag.
-								</video> -->
+								<!-- <img class="previewVideo" src="images/thumbs/pic01.jpg" title="Bent IX" alt="" /> -->
+						 	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;'><div id='gmap_canvas' class='image fit'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(48.889982,2.371433799999977),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(48.889982,2.371433799999977)});infowindow = new google.maps.InfoWindow({content:'<strong>104 cent quatre</strong><br>5 rue Curial - 75019 Paris<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 							</article>
 							<article class="from-left showhim maps">
 								<a href="images/fulls/pic03.jpg" class="image fit"><img class="myPreview2 showme" src="images/thumbs/pic03.jpg" title="The sparkling shell" alt="" /></a>
 								<!-- <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" class="previewVideo" width="440" height="299" autoplay loop muted>
 									<source src="images/videos/wallpaperMe.mp4" type="video/mp4">Your browser does not support the video tag.
 								</video> -->
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.660213882021!2d2.2864969922597522!3d48.86144895482714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe3405d7ecf%3A0xc03ac392486d25b5!2sPlace+du+Trocad%C3%A9ro!5e0!3m2!1sfr!2sfr!4v1514918070304" class="previewVideo " frameborder="0" style="border:0" allowfullscreen></iframe>
 							</article>
 							<article class="from-right showhim maps">
 								<a href="images/fulls/pic02.jpg" class="image fit"><img class="myPreview2 showme" src="images/thumbs/pic02.jpg" title="Bent IX" alt="" /></a>
@@ -89,18 +95,7 @@
 									<source src="images/videos/wallpaperMe.mp4" type="video/mp4">Your browser does not support the video tag.
 								</video> -->
 							</article>
-							<article class="from-left showhim maps">
-								<a href="images/fulls/pic05.jpg" class="image fit"><img class="myPreview2 showme" src="images/thumbs/pic05.jpg" title="The sparkling shell" alt="" /></a>
-								<!--<video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" class="previewVideo" width="440" height="299" autoplay loop muted>
-									<source src="images/videos/videotomodify.mp4" type="video/mp4">Your browser does not support the video tag.
-								</video> -->
-							</article>
-							<article class="from-right showhim maps">
-								<a href="images/fulls/pic04.jpg" class="image fit"><img class="myPreview2 showme" src="images/thumbs/pic04.jpg" title="Bent IX" alt="" /></a>
-								<!-- <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" class="previewVideo" width="440" height="299" autoplay loop muted>
-									<source src="images/videos/wallpaperMe.mp4" type="video/mp4">Your browser does not support the video tag.
-								</video> -->
-							</article>
+
 						</div>
 					</div>
 					<a href="#two" class="button style2 down anchored">Next</a>

@@ -2227,7 +2227,7 @@
 		}
 
 		.previewVideo{
-			display : none;
+			display : none!important;
 			/* width: auto; */
 			justify-content: center;
 		}
@@ -2240,7 +2240,7 @@
 			transition-delay: 2s;
 		}
 		.showhim:hover .previewVideo{
-			display : block;
+			display : block!important;
 			-webkit-animation: disappear 2s;
 			animation: disappear 2s;
 		}
@@ -2283,4 +2283,16 @@
 		}
 
 
-		/* ========== content text titre =========== */
+		/* ========== places maps =========== */
+
+		.maps {
+			padding: 10px;
+		}
+
+		/* ========== flexbox ========= */
+		.flexbox {
+			display:flex;
+			flex-direction:row;
+			flex-wrap:wrap;
+			justify-content: space-between;
+		}
