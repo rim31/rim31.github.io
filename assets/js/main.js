@@ -234,4 +234,14 @@
 
 	});
 
+
+	$('#video_1').on('loadstart', function (event) {
+    $(this).addClass('loading');
+  });
+  $('#video_1').on('canplay', function (event) {
+    $(this).removeClass('loading');
+    $(this).attr('poster', '');
+  });
+
+
 })(jQuery);
