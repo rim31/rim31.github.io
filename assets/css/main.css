@@ -2292,6 +2292,14 @@
 		}
 
 
+		/*============= logo ==============*/
+		.logo {
+		  box-shadow:  28px 20px 0 #000000, 32px 20px 0 #000000, 36px 20px 0 #000000, 40px 20px 0 #000000, 44px 20px 0 #000000, 48px 20px 0 #000000, 28px 24px 0 #000000, 32px 24px 0 #303f46, 36px 24px 0 #303f46, 40px 24px 0 #303f46, 44px 24px 0 #303f46, 48px 24px 0 #000000, 28px 28px 0 #000000, 32px 28px 0 #303f46, 36px 28px 0 #303f46, 40px 28px 0 #303f46, 44px 28px 0 #303f46, 48px 28px 0 #000000, 24px 32px 0 #000000, 28px 32px 0 #303f46, 32px 32px 0 #303f46, 36px 32px 0 #303f46, 40px 32px 0 #303f46, 44px 32px 0 #303f46, 48px 32px 0 #000000, 52px 32px 0 #607d8b, 24px 36px 0 #000000, 28px 36px 0 #303f46, 32px 36px 0 #303f46, 36px 36px 0 #303f46, 40px 36px 0 #303f46, 44px 36px 0 #303f46, 48px 36px 0 #607d8b, 52px 36px 0 #000000, 56px 36px 0 #607d8b, 24px 40px 0 #000000, 28px 40px 0 #303f46, 32px 40px 0 #303f46, 36px 40px 0 #303f46, 40px 40px 0 #303f46, 44px 40px 0 #303f46, 48px 40px 0 #303f46, 52px 40px 0 #303f46, 56px 40px 0 #000000, 60px 40px 0 #607d8b, 24px 44px 0 #000000, 28px 44px 0 #303f46, 32px 44px 0 #303f46, 36px 44px 0 #303f46, 40px 44px 0 #303f46, 44px 44px 0 #303f46, 48px 44px 0 #303f46, 52px 44px 0 #303f46, 56px 44px 0 #303f46, 60px 44px 0 #000000, 64px 44px 0 #607d8b, 24px 48px 0 #000000, 28px 48px 0 #303f46, 32px 48px 0 #303f46, 36px 48px 0 #303f46, 40px 48px 0 #303f46, 44px 48px 0 #303f46, 48px 48px 0 #303f46, 52px 48px 0 #303f46, 56px 48px 0 #303f46, 60px 48px 0 #303f46, 64px 48px 0 #000000, 68px 48px 0 #000000, 72px 48px 0 #000000, 28px 52px 0 #000000, 32px 52px 0 #000000, 36px 52px 0 #000000, 40px 52px 0 #000000, 44px 52px 0 #000000, 48px 52px 0 #000000, 52px 52px 0 #303f46, 56px 52px 0 #303f46, 60px 52px 0 #303f46, 64px 52px 0 #303f46, 68px 52px 0 #303f46, 72px 52px 0 #303f46, 76px 52px 0 #000000, 28px 56px 0 #000000, 32px 56px 0 #000000, 36px 56px 0 #000000, 40px 56px 0 #000000, 52px 56px 0 #000000, 56px 56px 0 #303f46, 60px 56px 0 #303f46, 64px 56px 0 #303f46, 68px 56px 0 #303f46, 72px 56px 0 #303f46, 76px 56px 0 #000000, 28px 60px 0 #000000, 32px 60px 0 #000000, 36px 60px 0 #000000, 40px 60px 0 #000000, 56px 60px 0 #000000, 60px 60px 0 #000000, 64px 60px 0 #000000, 68px 60px 0 #000000, 72px 60px 0 #000000, 28px 64px 0 #607d8b, 32px 64px 0 #607d8b, 36px 64px 0 #607d8b, 40px 64px 0 #607d8b, 44px 64px 0 #607d8b, 48px 64px 0 #607d8b, 52px 64px 0 #607d8b, 56px 64px 0 #607d8b, 60px 64px 0 #607d8b, 64px 64px 0 #607d8b, 68px 64px 0 #607d8b, 72px 64px 0 #607d8b, 32px 68px 0 #ff0000, 36px 68px 0 #ff0000, 64px 68px 0 #ff0000, 68px 68px 0 #ff0000, 76px 68px 0 #607d8b, 28px 72px 0 #ff0000, 32px 72px 0 #607d8b, 36px 72px 0 #607d8b, 40px 72px 0 #ff0000, 60px 72px 0 #ff0000, 64px 72px 0 #607d8b, 68px 72px 0 #607d8b, 72px 72px 0 #ff0000, 28px 76px 0 #ff0000, 32px 76px 0 #607d8b, 36px 76px 0 #607d8b, 40px 76px 0 #ff0000, 60px 76px 0 #ff0000, 64px 76px 0 #607d8b, 68px 76px 0 #607d8b, 72px 76px 0 #ff0000, 32px 80px 0 #ff0000, 36px 80px 0 #ff0000, 64px 80px 0 #ff0000, 68px 80px 0 #ff0000;
+		  height: 2px;
+		  width: 2px;
+			border-radius: 50%;
+		}
+
 		/* ========== places maps =========== */
 
 		.maps {
@@ -2334,7 +2342,7 @@
 	     left: 0;
 	     opacity: 0;
 	     width: auto;
-	     height: auto;
+	     /* height: auto; */
 	     text-align: left;
 	     padding: auto;
 	 }
