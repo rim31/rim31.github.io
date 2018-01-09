@@ -2156,7 +2156,7 @@
 
 	#one {
 		/*background: url("images/overlay.png"), url("../../images/one.jpg");*/
-		background: url("images/overlay.png"), url("../../images/fulls/pic01.jpg");
+		background: url("images/overlay.png"), url("../../images/fulls/pic00.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2300,6 +2300,11 @@
 			border-radius: 50%;
 		}
 
+		/* ========== texte justifie =========== */
+.justifie {
+	text-align: justify;
+}
+
 		/* ========== places maps =========== */
 
 		.maps {
@@ -2381,3 +2386,43 @@
 		/*font-weight: bold;*/
 		/*font-size: 30px;*/
 	}
+
+	/* ----------------carousel--------------- */
+
+	div#slider { width: 80%; max-width: 1000px; }
+
+	div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+}
+
+div#slider figure img { width: 20%; height: auto; float: left; }
+
+div#slider { width: 80%; max-width: 1000px; overflow: hidden }
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+}
