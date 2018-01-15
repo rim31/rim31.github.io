@@ -2426,3 +2426,29 @@ div#slider figure {
   text-align: left;
   animation: 30s slidy infinite;
 }
+
+/* =============== grid ================ */
+
+table, .myTable
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+		/* background-color: #f2f2f2 */
+}
+
+.titleTable
+{
+	font-weight: bold;
+}
+
+.myTable, th, td
+{
+    text-align: left;
+    padding: 4px;
+}
+
+.myTable  tr:nth-child(even){
+	background-color: #f2f2f2
+}
