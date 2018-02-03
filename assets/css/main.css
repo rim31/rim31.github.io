@@ -1060,7 +1060,7 @@
 			}
 
 	.rim {
-		color: #bdc3c7;
+		color: #FDFFFF;
 		text-shadow: 2px 2px #39454b;
 	}
 
@@ -2661,4 +2661,24 @@ table, .myTable
 }
 
 
+/* ============= carnet image in Table ============= */
+
+.imgTable {
+	width: inherit;
+	vertical-align: middle;
+	max-height: 7em;
+}
+
 /* ============= media image modal ============= */
+
+.position_modal {
+	z-index: 99999;
+}
+
+.modalImage {
+	/* max-width: 100%;
+	height: auto; */
+	max-width: 100%;
+	height: auto;
+	top: calc(50% - 1vh) !important;
+}
