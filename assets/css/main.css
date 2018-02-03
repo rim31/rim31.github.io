@@ -2675,10 +2675,16 @@ table, .myTable
 	z-index: 99999;
 }
 
+.modal-dialog {
+	width: 92vw;
+}
+
+.modal-body {
+	padding: 0
+}
+
 .modalImage {
-	/* max-width: 100%;
-	height: auto; */
-	max-width: 100%;
+	width: 92vw;
+	/* max-width: 92vw; */
 	height: auto;
-	top: calc(50% - 1vh) !important;
 }
