@@ -2477,6 +2477,7 @@ table, .myTable
 {
     text-align: left;
 		vertical-align: top;
+		border-right: thin solid #FFFFFF;
     /* padding: 4px; */
 }
 
