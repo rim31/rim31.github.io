@@ -2476,7 +2476,8 @@ table, .myTable
 .myTable, th, td
 {
     text-align: left;
-    padding: 4px;
+		vertical-align: top;
+    /* padding: 4px; */
 }
 
 .myTable  tr:nth-child(even){
@@ -2718,7 +2719,7 @@ table, .myTable
 .imgTable {
 	width: inherit;
 	vertical-align: middle;
-	max-height: 7em;
+	max-height: 6em;
 }
 
 /* ============= media image modal ============= */
