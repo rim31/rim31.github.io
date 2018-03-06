@@ -1061,7 +1061,7 @@
 
 	.rim {
 		color: #FDFFFF;
-		text-shadow: 2px 2px #39454b;
+		text-shadow: 2px 2px ;
 	}
 
 			h2 {
@@ -2741,4 +2741,11 @@ table, .myTable
 	width: 92vw;
 	/* max-width: 92vw; */
 	height: auto;
+}
+
+.close {
+	color: white;
+	top: auto;
+	right: auto;
+	z-index: 10000;
 }
