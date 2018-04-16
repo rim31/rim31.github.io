@@ -1084,10 +1084,14 @@
 		font-size: 1.2em;
 		font-family: 'Dancing Script', cursive;
 		margin: 0 0 .25em 0;
-		/*color: #7FFFD4;*/
-		/* text-shadow: 0.5px 0.5px #000000; */
 	}
 
+	.headerTitle {
+		font-size: 1.2em;
+		font-family: 'Dancing Script', cursive;
+		margin: 0 0 .25em 0;
+	}
+	
 		footer {
 			margin-top: 2em;
 		}
