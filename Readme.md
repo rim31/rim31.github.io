@@ -1,3 +1,26 @@
+Portfolio : OSENG - https://rim31.github.io
+
+![](./images/1.png)
+
+https://ninjoy42.github.io/magicolor
+
+- Mobile vidoe game : Unity - available on Google PlayStore
+
+
+![](./images/2.png)
+
+https://rim31.github.io/covid19
+
+- website :React, redux like :  map and stats charts  : coronavirus worldwide situation
+
+
+![](./images/3.png)
+
+https://rim31.github.io/turku
+
+- Progressive Web app : desktop and mobile - React, redux like :  open data Finland contest
+
+
 #MAGICOLOR
 
 Welcome to the MAGICOLOR Official Discord! ⚪️ 
