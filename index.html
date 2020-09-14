@@ -11,15 +11,16 @@
     <link rel='manifest' href='./manifest.json' />
     <title>oseng website</title>
     <style>
-    @font-face     { font-family: Baloo; src: url('./images/Baloo.ttf'); } 
-    body           {background-color: red;font-family: Baloo;}
-    h1             {color: whitesmoke;}
-    h2             {text-decoration:none}
-    a              {color: whitesmoke;}
-    a:link         {text-decoration:none}
-    .screenshot    {width: 200px;border-radius:9px;}
-    .card          {font-size:3px; border-radius:9px!important; background-color:DarkSlateGray!important;font-size:16px;margin:0px;}
-    .cardSpace     {margin:1px!important;}
+    @font-face      {font-family: Baloo; src: url('./images/Baloo.ttf'); } 
+    body            {background-color: red;font-family: Baloo!important;}
+    h1              {color: whitesmoke;}
+    h2              {text-decoration:none}
+    a               {color: whitesmoke;}
+    a:link          {text-decoration:none}
+    .screenshot     {width: 200px;border-radius:9px;}
+    .card           {font-size:3px; border-radius:9px!important; background-color:DarkSlateGray!important;font-size:16px;border:1px solid black!important;}
+    .cardSpace      {margin:1px!important;}
+    .box            {display: flex;align-items: center;justify-content: center;background:DarkSlateGray;margin: 2px 0;padding: 5px;width: 100%;border-radius:9px!important;}
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
@@ -30,29 +31,29 @@
         <img width="30" src="./images/logo_10px.png" alt=" logo" /><span class="badge badge-success ml-2 mr-2">Oseng</span><span class="text-center">https://rim31.github.io/</span>
       </div>
       <h1 class="text-center">PORTFOLIO : Choose a website</h1>
-        <div class="row d-flex flex-wrap">
-        <div class="card col-lg-4 col-offset-2 col-md-6 col-sm-6 col-xs-12">
-          <div class="mx-2 p-2 cardSpace">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="box  text-center">
             <a href="https://ninjoy42.github.io/magicolor/">
-              <h2>Video Game :  mobile Magicolor</h2>
+              <h2>Video Game : mobile Magicolor - Unity</h2>
               <img class="screenshot" src="./images/1.png">
               <p>Redirection :</p><p>https://ninjoy42.github.io/magicolor/</p>
             </a>
           </div>
         </div>
-        <div class="card col-lg-4 col-offset-2 col-md-6 col-sm-6 col-xs-12">
-          <div class="mx-2 p-2 cardSpace">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="box  text-center">
             <a href="https://rim31.github.io/turku/">
-              <h2>Progressive Web App :  OpenData Turku, Finland</h2>
+              <h2>Progressive Web App : OpenData Turku, Finland</h2>
               <img class="screenshot" src="./images/2.png">
               <p>Redirection :</p><p>https://rim31.github.io/turku/</p>
             </a>
           </div>
         </div>
-        <div class="card col-lg-4 col-offset-2 col-md-6 col-sm-6 col-xs-12">
-          <div class="mx-2 p-2 cardSpace">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <div class="box  text-center">
             <a href="https://rim31.github.io/covid19/">
-              <h2>Dashboard :  Covid 19 World Stats</h2>
+              <h2>Dashboard Covid19 : World Stats</h2>
               <img class="screenshot" src="./images/3.png">
               <p>Redirection :</p><p>https://rim31.github.io/covid19/</p>
             </a>
